@@ -233,6 +233,8 @@ nav li {
     border-radius: 20px;
     margin-top: 22px;
     cursor: pointer;
+    text-decoration: none;
+
 
 }
 
