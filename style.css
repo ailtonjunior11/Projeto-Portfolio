@@ -205,6 +205,14 @@ nav li {
     margin-bottom: 13px;
 }
 
+.card .page-location{
+
+    height: 125px;
+    margin-top: 12px;
+    margin-bottom: 31px;
+
+}
+
 .card h4 {
 
     color: #ffffff;
