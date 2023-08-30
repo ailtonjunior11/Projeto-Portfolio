@@ -115,7 +115,6 @@ nav li {
 
     height: 400px;
     border-radius: 154px
-
 }
 
 
@@ -205,7 +204,7 @@ nav li {
     margin-bottom: 13px;
 }
 
-.card .page-location{
+.card .page-location {
 
     height: 125px;
     margin-top: 12px;
@@ -214,10 +213,17 @@ nav li {
 }
 
 .card .we-care {
-    
+
     height: 125px;
     margin-top: 12px;
     margin-bottom: 31px;
+}
+
+.card .easy-shopping {
+
+    height: 150px;
+    margin-top: 10px;
+    margin-bottom: 12px;
 }
 
 .card h4 {
