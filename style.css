@@ -12,9 +12,10 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #191919;
-    background-image: url(./assets/logo-prog.png);
+    background-image: url(./assets/background-blue.jpeg);
     background-repeat: no-repeat;
-    background-position: top 150px right 75px;
+    background-size: cover;
+    background-size: 110%;
 
 }
 
@@ -53,7 +54,7 @@ nav li {
     list-style: none;
     display: inline-block;
     margin-right: 30px;
-    font-size: 22px;
+    font-size: 25px;
     cursor: pointer;
 
 }
@@ -98,6 +99,13 @@ nav li {
 .div-name h3 span {
 
     color: rgb(20, 159, 240);
+}
+
+.div-name img {
+
+    margin-left: 100%;
+    height: 260px;
+    margin-top: -50px;
 }
 
 .div-sobre {
