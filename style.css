@@ -135,15 +135,15 @@ nav li {
     padding: 15px 20px 35px 38px
 }
 
-.div-sobre div a {
+.div-sobre div h2 {
 
     background-color: rgb(20, 159, 240);
     color: #ffffff;
-    font-size: 13px;
+    font-size: 18px;
     padding: 10px 10px;
     border-radius: 25px;
     margin-left: 40px;
-    cursor: pointer;
+    width: 575px;
 
 }
 
