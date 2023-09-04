@@ -101,15 +101,21 @@ nav li {
     color: rgb(20, 159, 240);
 }
 
+.div-name img {
+
+    margin-left: 650px;
+    margin-top: -15%;
+}
 
 .div-sobre {
 
-    background: #0b001f;
+    background: #000000;
     height: 420px;
     display: flex;
     position: absolute;
     margin-top: 52%;
     padding-left: 40px;
+    width: 110%;
 
 }
 
