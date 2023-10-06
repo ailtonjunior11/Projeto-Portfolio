@@ -12,11 +12,7 @@ body {
     height: 100vh;
     width: 100vw;
     background: #2a408b;
-    background-image: url(./assets/fundo-3.jpeg);
-    background-repeat: no-repeat;
-    background-position: bottom -50px right -20px;
 }
-
 
 nav {
 
@@ -82,7 +78,7 @@ nav li {
 
     font-size: 65px;
     background: #26186d83;
-    width: 545px;
+    width: 650px;
     height: 95px;
     padding-top: 15px;
     padding-left: 15px;
@@ -115,6 +111,17 @@ nav li {
 .div-name h4 span {
 
     color: rgb(87, 184, 240);
+}
+
+.main-photo {
+
+    position: absolute;
+    bottom: 150px;
+    right: 230px;
+    height: 310px;
+    border: 5px solid #149ff0;
+    border-radius: 250px;
+    background: #ffffffe0;
 }
 
 .skill {
