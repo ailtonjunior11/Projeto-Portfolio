@@ -250,39 +250,39 @@ footer p {
     .div-sobre {
 
         display: block;
-        margin-top: -30%;
+        margin-top: -70%;
         padding-left: 0px;
     }
 
     .div-sobre img {
 
-        height: 600px;
+        height: 500px;
         border-radius: 0px;
-        margin-top: -100%;
-        margin-left: -25px;
+        margin-top: -110%;
+        margin-left: 22px;
+        display: none;
     }
-
 
     .div-sobre div h2 {
 
         color: #ffffff;
-        padding: 18px 0 15px 65px;
+        padding: 18px 0 15px 60px;
         font-size: 50px;
-        margin-top: -5px;
-        margin-bottom: 18px;
-        background-color: #00468c65;
+        margin-top: -280px;
+        margin-bottom: -10px;
     }
 
     .div-sobre div p {
 
-        color: #c0dbff;
+        color: #ffffff;
         font-size: 20px;
-        padding: 0px 60px 30px 30px;
+        padding: 0px 0px 20px 20px;
+        text-shadow: 0px 1px 0px #149ff0;
     }
 
     .div-sobre div h3 {
 
-        background-color: rgb(20, 159, 240);
+        background-color: #149ff0;
         color: #ffffff;
         font-size: 15px;
         padding: 17px 0 0 65px;
@@ -294,17 +294,17 @@ footer p {
 
     footer {
 
-        background-color: #151515;
         padding-top: 40px;
         padding-bottom: 40px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        bottom: -600px;
+        bottom: -180px;
         right: 0px;
         left: 0px;
-        width: 101.5%;
+        width: 100%;
+        height: 50%;
     }
 
     footer h5 {
