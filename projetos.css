@@ -14,7 +14,8 @@ body {
     background-color: #191919;
     background-image: url(./assets/astronalta-5.jpeg);
     background-repeat: no-repeat;
-    background-size: 103%;
+    background-size: cover;
+    background-size: 104%;
 }
 
 nav {
@@ -230,4 +231,221 @@ footer p {
 .sociais a:active {
 
     background-color: #91233b;
+}
+
+@media screen and (max-width: 900px) {
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    body {
+
+        height: 100vh;
+        width: 100vw;
+        background-color: #191919;
+        background-image: url(./assets/astronauta-mobile.jpeg);
+        background-repeat: no-repeat;
+        background-size: 260%;
+        background-position: top -180px right -280px;
+    }
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav h1 {
+
+        font-size: 30px;
+        color: white;
+        margin-right: 130px;
+    }
+
+    nav h1 span {
+
+        color: #ff6600;
+    }
+
+    nav li {
+
+        color: #ffffff;
+        list-style: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .link-menu:hover {
+
+        color: #ff6600;
+        transition: 0.5s;
+    }
+
+    .link-menu:active {
+
+        opacity: 0.3;
+    }
+
+    .projetos h2 {
+
+        color: #ffffff;
+        font-size: 38px;
+        margin: 20px 0 0 32px;
+        text-shadow: 0px 2px 2px #000000a1;
+    }
+
+    .card-projetos {
+
+        display: block;
+    }
+
+    .card {
+
+        height: 200px;
+        width: 100%;
+        text-align: center;
+        border: 0.8px solid #ff9f68bd;
+        border-radius: 0px;
+        margin-top: 30px;
+        background-color: #00000086;
+    }
+
+    .card img {
+
+        height: 100px;
+        margin-top: -5px;
+
+    }
+
+    .card h4 {
+
+        color: #ffffff;
+        font-size: 12px;
+        margin-top: -25px;
+        padding-bottom: 12px;
+
+    }
+
+    .card p {
+
+        color: #ffffff;
+        font-size: 13px;
+    }
+
+    .card a {
+
+        background-color: #ff6600;
+        color: #ffffff;
+        height: 31px;
+        width: 100px;
+        padding: 7px 12px;
+        font-size: 12px;
+        border: none;
+        border-radius: 20px;
+        margin-top: 22px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    .card .money {
+
+        height: 80px;
+        margin-bottom: 20px;
+        width: 100px;
+    }
+
+    .card .barbearia {
+
+        height: 55px;
+        margin: 10px 0 30px 0;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px #27030b98;
+    }
+
+    .card a:hover {
+
+        background-color: transparent;
+        border: 1px solid #ff6600;
+        transition: 0.4s;
+    }
+
+    .card a:active {
+
+        background-color: #ff6600;
+    }
+
+    footer {
+
+        background-color: #0000008c;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: -800px;
+        width: 100%;
+    }
+
+    footer h5 {
+
+        color: #ffffff;
+        font-size: 35px;
+        text-shadow: 0px 3px 3px #91233b;
+    }
+
+    footer p {
+
+        color: #ffffff;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+        text-shadow: 0px 3px 3px #91233b;
+    }
+
+    .sociais {
+
+        display: flex;
+        gap: 20px;
+    }
+
+    .sociais img {
+
+        height: 35px;
+        border-radius: 50%;
+
+    }
+
+    .sociais a {
+
+        background-color: #770d24;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        cursor: pointer;
+    }
+
+    .sociais a:hover {
+
+        background-color: transparent;
+        border: 1px solid #91233b;
+        transform: scale(1.2);
+        transition: 0.5s;
+    }
+
+    .sociais a:active {
+
+        background-color: #91233b;
+    }
 }
