@@ -292,6 +292,14 @@ footer p {
         height: 60px;
     }
 
+    .img {
+
+        height: 550px;
+        margin-left: -50px;
+        margin-top: 20px;
+        opacity: 0.09;
+    }
+
     footer {
 
         padding-top: 40px;
