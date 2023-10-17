@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Josefin Sans', sans-serif;
-
 }
 
 body {
@@ -12,9 +11,6 @@ body {
     height: 100vh;
     width: 100vw;
     background-color: #151515;
-    background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: right;
 }
 
 nav {
@@ -201,4 +197,128 @@ footer p {
 .sociais a:active {
 
     background-color: rgb(20, 159, 240);
+}
+
+@media screen and (max-width: 900px) {
+
+    * {
+
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    body {
+
+        height: 100vh;
+        width: 100vw;
+        background-color: #151515;
+    }
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 33px;
+        margin-left: 30px;
+        margin-right: 26.5px;
+    }
+
+    nav h1 {
+
+        font-size: 30px;
+        color: white;
+        margin-right: 120px;
+    }
+
+    nav h1 span {
+
+        color: rgb(20, 159, 240);
+    }
+
+    nav li {
+
+        color: #ffffff;
+        list-style: none;
+        display: inline-block;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .div-sobre {
+
+        display: block;
+        margin-top: -30%;
+        padding-left: 0px;
+    }
+
+    .div-sobre img {
+
+        height: 600px;
+        border-radius: 0px;
+        margin-top: -100%;
+        margin-left: -25px;
+    }
+
+
+    .div-sobre div h2 {
+
+        color: #ffffff;
+        padding: 18px 0 15px 65px;
+        font-size: 50px;
+        margin-top: -5px;
+        margin-bottom: 18px;
+        background-color: #00468c65;
+    }
+
+    .div-sobre div p {
+
+        color: #c0dbff;
+        font-size: 20px;
+        padding: 0px 60px 30px 30px;
+    }
+
+    .div-sobre div h3 {
+
+        background-color: rgb(20, 159, 240);
+        color: #ffffff;
+        font-size: 15px;
+        padding: 17px 0 0 65px;
+        border-radius: 0px;
+        margin-left: 0px;
+        width: 100%;
+        height: 60px;
+    }
+
+    footer {
+
+        background-color: #151515;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        bottom: -600px;
+        right: 0px;
+        left: 0px;
+        width: 101.5%;
+    }
+
+    footer h5 {
+
+        color: #ffffff;
+        font-size: 30px;
+    }
+
+    footer p {
+
+        color: #ffffff;
+        font-size: 18px;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+
 }
