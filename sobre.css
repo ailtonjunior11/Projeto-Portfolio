@@ -10,7 +10,7 @@ body {
 
     height: 100vh;
     width: 100vw;
-    background-color: #151515;
+    background: linear-gradient( #000000, #02231c);
 }
 
 nav {
@@ -18,20 +18,25 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 33px;
+    margin-top: 25px;
     margin-left: 30px;
     margin-right: 26.5px;
 }
 
-nav h1 {
+h1 {
 
-    font-size: 35px;
-    color: white;
-}
-
-nav h1 span {
-
-    color: rgb(20, 159, 240);
+    font-size: 30px;
+    color: #ffffff;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    padding-top: 11px;
+    background: linear-gradient( #000000, #045543);
+    border-radius: 5px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .link-menu {
@@ -40,7 +45,7 @@ nav h1 span {
     color: #ffffff;
 }
 
-nav li {
+li {
 
     color: #ffffff;
     list-style: none;
@@ -48,285 +53,62 @@ nav li {
     margin-right: 30px;
     font-size: 25px;
     cursor: pointer;
+    font-weight: 700;
 }
 
-.link-menu:hover {
+li:hover {
 
-    color: rgb(20, 159, 240);
+    opacity: 0.7;
     transition: 0.5s;
+    transform: scale(1.1);
 }
 
-.link-menu:active {
+li:active {
 
     opacity: 0.3;
 }
 
-.div-sobre {
+.sobre {
 
-    height: 420px;
+    height: 450px;
+    width: 50%;
     display: flex;
-    position: absolute;
-    margin-top: -30%;
-    padding-left: 30px;
-}
-
-.div-sobre img {
-
-    height: 390px;
-    border-radius: 160px;
-    margin-top: -40px;
-}
-
-
-.div-sobre div h2 {
-
-    color: #ffffff;
-    padding: 5px 0 15px 40px;
-    font-size: 43px;
-    margin-top: -20px;
-}
-
-.div-sobre div p {
-
-    color: #c0dbff;
-    font-size: 22px;
-    padding: 12px 500px 30px 40px;
-}
-
-.div-sobre div h3 {
-
-    background-color: rgb(20, 159, 240);
-    color: #ffffff;
-    font-size: 12px;
-    padding: 15px 12px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: 25%;
+    margin-top: -40%;
+    background: rgba(255, 255, 255, 0.116);
     border-radius: 5px;
-    margin-left: 40px;
-    width: 400px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.div-sobre div h3:hover {
+div {
 
-    transform: scale(1.1);
-    transition: 0.5s;
+    position: relative;
 }
 
-.div-sobre a:hover {
+h2 {
 
-    background-color: #000000;
-    border: 1px solid rgb(20, 159, 240);
-    transition: 0.5s;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 30px;
 }
 
-.div-sobre a:active {
+p {
 
-    background-color: rgb(20, 159, 240);
+    color: #f2f2ec;
+    font-size: 30px;
+    text-align: center;
 }
 
 .img {
 
-    height: 550px;
-    margin-left: 765px;
-    margin-top: 20px;
-    opacity: 0.08;
-}
-
-footer {
-
-    background-color: #151515;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    bottom: -250px;
-    right: 0px;
-    left: 0px;
-    width: 101.5%;
-}
-
-footer h5 {
-
-    color: #ffffff;
-    font-size: 35px;
-}
-
-footer p {
-
-    color: #ffffff;
-    font-size: 18px;
-    margin-top: 15px;
-    margin-bottom: 30px;
-}
-
-.sociais {
-
-    display: flex;
-    gap: 20px;
-}
-
-.sociais img {
-
-    height: 35px;
-    border-radius: 50%;
-
-}
-
-.sociais a {
-
-    background-color: #00468c;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    cursor: pointer;
-
-}
-
-.sociais a:hover {
-
-    background-color: #0b001f;
-    border: 1px solid rgb(20, 159, 240);
-    transform: scale(1.2);
-    transition: 0.5s;
-}
-
-.sociais a:active {
-
-    background-color: rgb(20, 159, 240);
-}
-
-@media screen and (max-width: 900px) {
-
-    * {
-
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Josefin Sans', sans-serif;
-    }
-
-    body {
-
-        height: 100vh;
-        width: 100vw;
-        background-color: #151515;
-    }
-
-    nav {
-
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 33px;
-        margin-left: 30px;
-        margin-right: 26.5px;
-    }
-
-    nav h1 {
-
-        font-size: 30px;
-        color: white;
-        margin-right: 120px;
-    }
-
-    nav h1 span {
-
-        color: rgb(20, 159, 240);
-    }
-
-    nav li {
-
-        color: #ffffff;
-        list-style: none;
-        display: inline-block;
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    .div-sobre {
-
-        display: block;
-        margin-top: -70%;
-        padding-left: 0px;
-    }
-
-    .div-sobre img {
-
-        height: 500px;
-        border-radius: 0px;
-        margin-top: -110%;
-        margin-left: 22px;
-        display: none;
-    }
-
-    .div-sobre div h2 {
-
-        color: #ffffff;
-        padding: 18px 0 15px 60px;
-        font-size: 50px;
-        margin-top: -280px;
-        margin-bottom: -10px;
-    }
-
-    .div-sobre div p {
-
-        color: #ffffff;
-        font-size: 20px;
-        padding: 0px 0px 20px 20px;
-        text-shadow: 0px 1px 0px #149ff0;
-    }
-
-    .div-sobre div h3 {
-
-        background-color: #149ff0;
-        color: #ffffff;
-        font-size: 15px;
-        padding: 17px 0 0 65px;
-        border-radius: 0px;
-        margin-left: 0px;
-        width: 100%;
-        height: 60px;
-    }
-
-    .img {
-
-        height: 500px;
-        margin-left: -50px;
-        margin-top: 20px;
-        opacity: 0.09;
-        width: 100%;
-    }
-
-    footer {
-
-        padding-top: 10px;
-        padding-bottom: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        bottom: 10px;
-        right: 0px;
-        left: 0px;
-        width: 100%;
-    }
-
-    footer h5 {
-
-        color: #ffffff;
-        font-size: 30px;
-    }
-
-    footer p {
-
-        color: #ffffff;
-        font-size: 18px;
-        margin-top: 15px;
-        margin-bottom: 30px;
-    }
-
+    height: 600px;
+    margin-left: 400px;
+    opacity: 0.3;
 }
