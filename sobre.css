@@ -10,7 +10,7 @@ body {
 
     height: 100vh;
     width: 100vw;
-    background: linear-gradient( #000000, #02231c);
+    background:#000000;
 }
 
 nav {
@@ -18,25 +18,15 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 25px;
-    margin-left: 30px;
-    margin-right: 26.5px;
+    padding: 15px 40px;
+    position: relative;
+    top: 20px;
 }
 
 h1 {
 
     font-size: 30px;
     color: #ffffff;
-    width: 180px;
-    height: 50px;
-    text-align: center;
-    padding-top: 11px;
-    background: linear-gradient( #000000, #045543);
-    border-radius: 5px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .link-menu {
@@ -70,15 +60,15 @@ li:active {
 
 .sobre {
 
-    height: 450px;
+    height: 350px;
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
-    margin-left: 25%;
-    margin-top: -40%;
-    background: rgba(255, 255, 255, 0.116);
+    position: fixed;
+    top: 160px;
+    left: 345px;
+    background: rgba(255, 255, 255, 0.199);
     border-radius: 5px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
@@ -108,7 +98,8 @@ p {
 
 .img {
 
-    height: 600px;
+    height: 550px;
     margin-left: 400px;
     opacity: 0.3;
+    border-radius: 50px;
 }
