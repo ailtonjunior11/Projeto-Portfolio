@@ -215,3 +215,10 @@ h2::after {
     margin-bottom: 30px;
     margin-top: 38px;
 }
+
+.card .mario-luigi {
+
+    height: 130px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
